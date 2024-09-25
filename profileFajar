@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Saya</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .profile-img {
+            display: block;
+            margin: 0 auto 20px;
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        .info {
+            margin-bottom: 15px;
+        }
+        .info label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Profil Saya</h1>
+        <img src="https://via.placeholder.com/150" alt="Foto Profil" class="profile-img">
+        <div class="info">
+            <label>Nama:</label> <span>Nama Anda</span>
+        </div>
+        <div class="info">
+            <label>Umur:</label> <span>25 Tahun</span>
+        </div>
+        <div class="info">
+            <label>Email:</label> <span>email@example.com</span>
+        </div>
+        <div class="info">
+            <label>Deskripsi:</label>
+            <p>Saya adalah seorang pengembang web yang suka belajar dan berbagi pengetahuan. Saya tertarik dengan teknologi terbaru dan pengembangan perangkat lunak.</p>
+        </div>
+        <div class="info">
+            <label>Hobi:</label> <span>Membaca, Menggambar, dan Bersepeda</span>
+        </div>
+    </div>
+</body>
+</html>
